@@ -1,0 +1,104 @@
+*{
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+    color:white;
+    text-align: start;
+}
+
+.one{
+    margin: 10% 5%;
+    height: 30vh;
+}
+
+.one h2{
+    color: rgb(71, 147, 157);
+     padding: 10px; 
+}
+.one h3{
+      text-align: start;
+      color: rgb(184, 221, 109);
+      padding: 5px;
+}
+.one p{
+    color: rgb(102, 100, 100);
+    padding: 5px;
+
+}
+.two{ 
+    background-color:rgb(40, 146, 146);
+    height: 35vh;
+    padding: 5px;
+  
+}
+.two span{
+    font-size: 25px;
+
+}
+h1{
+    padding: 10px 5px;
+}
+p{
+   
+    padding: 5px;
+}
+div{
+    margin:5% 5%;
+}
+button{
+    background-color: rgb(130, 179, 32);
+    margin-top:25px ;
+    padding: 10px 40%;
+    border-radius: 5px;
+}
+.three{
+    background-color:rgb(86, 155, 155);
+    height: 40vh;
+    padding: 5px ;
+}
+@media only screen and (min-width:1024px){
+    
+    .all {
+        display: flex;
+        text-align: left;
+        margin: 0;
+    }
+    .one{
+        height: 40vh;
+        margin: 2% 20%;
+        padding-top: 2% ;
+       
+
+
+    }
+    .one h2{
+        font-size: 40px;
+    }
+    .one h3{
+        font-size: 25px;
+    }
+    
+    .two{
+       
+        width: 50vw;
+        height: 50vh;
+        float: left;
+        padding: 10px 30px;
+    }
+    button{
+        padding:20px 20% ;
+        text-align: center;
+    }
+    .three{
+        
+        width: 50vw;
+        height: 50vh;
+        float: right;
+        padding: 10px 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+    
+}
+   
